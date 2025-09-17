@@ -2,6 +2,9 @@
 (function(){
     console.log("Hello from IIFE");
 })();
+// ()();
+// first()-------> calls the function immediately
+// (function(){}())-------> calls the function immediately
 // Output: Hello from IIFE
 // why use IIFE?
 // 1. To avoid polluting the global namespace
