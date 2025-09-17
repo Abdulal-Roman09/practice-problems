@@ -1,0 +1,10 @@
+// exmaple of slice and splice
+
+let arr = [1, 2, 3, 4, 5];
+
+// Using slice to create a new array from index 1 to 3 (not including 3)
+let slicedArr = arr.slice(1, 3);
+console.log('Sliced Array:', slicedArr); // Output: [2, 3]
+
+let spliceArr = arr.splice(1, 2, 6, 7); // Removes 2 elements from index 1 and adds 6, 7
+console.log('Spliced Array (removed elements):', spliceArr);
